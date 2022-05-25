@@ -1,6 +1,6 @@
 ### **Projetos de JavaScript**
 
-## Um [site](vanillaprojects.netlify.app) feito para conter todos os projetos de JavaScript.
+## Um [site](https://vanillaprojects.netlify.app) feito para conter todos os projetos de JavaScript.
 
 1. Objetivos do site<br><br>
 Sites feitos com o objetivo de treinar JS.
