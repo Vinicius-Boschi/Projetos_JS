@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Projetos JS</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="header__nav">
+            <h1 class="header__name">Projetos JavaScript</h1>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="main__input">
+            <label for="crescent">Ordem Crescente</label>
+            <input type="radio" name="alphabetic order" id="main__crescent" onclick="crescentOrder()">
+        </div>
+        <div class="main__input">
+            <label for="descending">Ordem Decrescente</label>
+            <input type="radio" name="alphabetic order" id="main__descending" onclick="decrescentOrder()">
+        </div>
+        <div class="main__content"></div>
+        <div class="main__button_see-more">
+            <button class="main__button" onclick="load()">Ver mais</button>  
+        </div>
+    </main>
+
+    <footer class="footer">
+        <span class="footer__text">© Todos os direitos reservados - 2022</span>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/js/projects.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+$yellow: #D7D708;
+$white: #FFFFFF;
+$brown: #323330;
+$blue: #62A7E3;
+$light-blue: #B1D4F2;
+
+@mixin phone {
+    @media (min-width: 315px) and (max-width: 540px) { @content; }
+}
+
+@import 'header', 'main', 'footer';

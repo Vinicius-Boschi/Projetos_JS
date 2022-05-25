@@ -1,0 +1,63 @@
+.main {
+
+    background-image: linear-gradient($blue, $light-blue);
+
+    &__input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1rem;
+        color: $yellow;  
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        place-items: center;
+        text-transform: capitalize;
+
+        @include phone {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &__projects {
+        padding: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: $yellow; 
+        font-size: 13pt; 
+        font-weight: bold;
+    }
+
+    &__img {
+        width: 25vw;
+        height: auto;
+        border: 1px solid $brown;
+        border-radius: .6rem;
+        box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.58);
+
+        @include phone {
+            width: 35vw;
+        }
+    }
+
+    &__button_see-more {
+        padding: 1rem;
+    }
+
+    &__button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid $yellow;
+        border-radius: .3rem;
+        background-color: $brown;
+        color: $white;
+        width: 4.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+    }
+}

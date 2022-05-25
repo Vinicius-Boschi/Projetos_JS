@@ -1,0 +1,21 @@
+.header {
+
+    &__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $brown;
+        width: auto;
+        height: 15rem;
+    }
+
+    &__name {
+        color: $yellow;   
+        text-align: center; 
+        font-size: 3rem;
+
+        @include phone {
+            font-size: 2rem;
+        }
+    }
+}

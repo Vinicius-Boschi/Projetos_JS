@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #323330;
+  width: auto;
+  height: 15rem;
+}
+.header__name {
+  color: #D7D708;
+  text-align: center;
+  font-size: 3rem;
+}
+@media (min-width: 315px) and (max-width: 540px) {
+  .header__name {
+    font-size: 2rem;
+  }
+}
+
+.main {
+  background-image: linear-gradient(#62A7E3, #B1D4F2);
+}
+.main__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  color: #D7D708;
+}
+.main__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  text-transform: capitalize;
+}
+@media (min-width: 315px) and (max-width: 540px) {
+  .main__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.main__projects {
+  padding: 1rem;
+}
+.main a {
+  text-decoration: none;
+  color: #D7D708;
+  font-size: 13pt;
+  font-weight: bold;
+}
+.main__img {
+  width: 25vw;
+  height: auto;
+  border: 1px solid #323330;
+  border-radius: 0.6rem;
+  box-shadow: 5px 6px 13px 2px rgba(0, 0, 0, 0.58);
+}
+@media (min-width: 315px) and (max-width: 540px) {
+  .main__img {
+    width: 35vw;
+  }
+}
+.main__button_see-more {
+  padding: 1rem;
+}
+.main__button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #D7D708;
+  border-radius: 0.3rem;
+  background-color: #323330;
+  color: #FFFFFF;
+  width: 4.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #323330;
+  color: #D7D708;
+  height: 2rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
