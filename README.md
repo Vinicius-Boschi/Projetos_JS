@@ -6,7 +6,7 @@
 Sites feitos com o objetivo de treinar JS.
 
 2. Seção Inicial<br><br>
-<img src="assets/img/home.jpg" alt="home do site"> 
+<img src="assets/img/home.jpg" alt="página inicial"> 
 
 3. Tecnologia usadas: <br>
 
