@@ -22,8 +22,8 @@ function load() {
 
 load()
 
-let crescent = document.getElementById("main__crescent")
-let decrescent = document.getElementById("main__decrescent")
+let crescent = document.querySelector(".main__crescent")
+let decrescent = document.querySelector(".main__decrescent")
 
 function crescentOrder() {
     projects.sort(function(a,b) {

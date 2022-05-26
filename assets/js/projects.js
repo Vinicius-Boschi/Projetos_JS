@@ -1,5 +1,3 @@
-//sass --watch assets/sass/style.scss:assets/css/style.css
-
 let projects = [
     {
         image: "assets/img/colorflipper.jpg",
