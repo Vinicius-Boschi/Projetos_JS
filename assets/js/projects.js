@@ -24,4 +24,14 @@ let projects = [
         text: "sidebar",
         link: "https://sidebarsite.netlify.app"
     },
+    {
+        image: "assets/img/table.jpg",
+        text: "tabela de classificação",
+        link: "https://classificationtable.netlify.app/"
+    },
+    {
+        image: "assets/img/mentalist.jpg",
+        text: "mentalista",
+        link: "https://mentalistgame.netlify.app/"
+    },
 ]
