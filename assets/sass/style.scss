@@ -11,9 +11,10 @@ body {
 }
 
 $white: #F2F4F3;
-$brown: #471CEB;
-$blue: #63b9f2bc;
-$light-blue: #2e53e688;
+$dark-blue: #093364;
+$blue: #141EFF;
+$purple: #6F1EE8;
+$black: #000000;
 
 @mixin phone {
     @media (min-width: 315px) and (max-width: 540px) { @content; }
