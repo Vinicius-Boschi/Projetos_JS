@@ -34,4 +34,9 @@ let projects = [
         text: "mentalista",
         link: "https://mentalistgame.netlify.app/"
     },
+        {
+        image: "assets/img/menu.jpg",
+        text: "Menu",
+        link: "https://menurestaurants.netlify.app/"
+    }
 ]
