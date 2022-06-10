@@ -36,12 +36,17 @@ let projects = [
     },
     {
         image: "assets/img/menu.jpg",
-        text: "Menu",
+        text: "menu",
         link: "https://menurestaurants.netlify.app/"
     },
     {
         image: "assets/img/video.jpg",
-        text: "Video",
+        text: "video",
         link: "https://projectvideo.netlify.app/"
+    },
+    {
+        image: "assets/img/scrollbar.jpg",
+        text: "scrollbar",
+        link: "https://scrollbarproject.netlify.app/"
     }
 ]
