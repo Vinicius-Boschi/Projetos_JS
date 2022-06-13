@@ -48,5 +48,10 @@ let projects = [
         image: "assets/img/scrollbar.jpg",
         text: "scrollbar",
         link: "https://scrollbarproject.netlify.app/"
+    },
+    {
+        image: "assets/img/acordeao.jpg",
+        text: "acordeao",
+        link: "https://acordeao.netlify.app/"
     }
 ]
