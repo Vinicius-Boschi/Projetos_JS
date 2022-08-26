@@ -6,7 +6,7 @@
 Sites feitos com o objetivo de treinar JS.
 
 2. Seção Inicial<br><br>
-<img src="assets/img/home.jpg" alt="página inicial"> 
+<img src="https://user-images.githubusercontent.com/74377158/186978059-8ade65b0-e5da-4f14-aa46-1968c6585617.jpg" alt="página inicial"> 
 
 3. Tecnologia usadas: <br>
 

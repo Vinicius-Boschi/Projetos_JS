@@ -2,17 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient($blue, $purple);
+    background: $white-2;
 
     &__order {
         padding-top: 1rem;
     }
 
-    &__crescent, &__descending {
+    &__crescent, &__descending, &__button {
         background: none;
-        border: 2px solid $white;
+        border: 2px solid $black;
         border-radius: .5rem;
-        color: $white;
+        color: $black;
         padding: .5rem;
         font-size: 12pt;
         cursor: pointer;
@@ -53,32 +53,27 @@
         height: auto;
         border: 1px solid $dark-blue;
         border-radius: .6rem;
-        box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.58);
+        box-shadow: 2px 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+        transition: all .2s ease-in-out;
+        position:relative;
+        top: 0;
+        padding: 4px;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            top:-4px;box-shadow:0 4px 3px #999;
+        }
 
         @include phone {
             width: 35vw;
         }
     }
 
-    &__button_see-more {
-        padding: 1rem;
+    &__name {
+        color: $black;
     }
 
-    &__button {
-        display: block;
-        margin: 0 auto;
-        background: none;
-        border: 2px solid $white;
-        border-radius: .5rem;
-        color: $white;
-        padding: .5rem;
-        font-size: 11pt;
-        cursor: pointer;
-
-        &:hover {
-            background-color: $white;
-            color: $black;
-            transition: all 1s linear;
-        }
+    &__button_see-more {
+        padding: 1rem;
     }
 }

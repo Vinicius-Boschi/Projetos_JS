@@ -32,21 +32,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(#141EFF, #6F1EE8);
+  background: #E2E8F0;
 }
 .main__order {
   padding-top: 1rem;
 }
-.main__crescent, .main__descending {
+.main__crescent, .main__descending, .main__button {
   background: none;
-  border: 2px solid #F2F4F3;
+  border: 2px solid #000000;
   border-radius: 0.5rem;
-  color: #F2F4F3;
+  color: #000000;
   padding: 0.5rem;
   font-size: 12pt;
   cursor: pointer;
 }
-.main__crescent:hover, .main__descending:hover {
+.main__crescent:hover, .main__descending:hover, .main__button:hover {
   background-color: #F2F4F3;
   color: #000000;
   transition: all 1s linear;
@@ -78,38 +78,36 @@ body {
   height: auto;
   border: 1px solid #093364;
   border-radius: 0.6rem;
-  box-shadow: 5px 6px 13px 2px rgba(0, 0, 0, 0.58);
+  box-shadow: 2px 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  transition: all 0.2s ease-in-out;
+}
+.main__img:hover {
+  top: -4px;
+  box-shadow: 0 4px 3px #999;
 }
 @media (min-width: 315px) and (max-width: 540px) {
   .main__img {
     width: 35vw;
   }
 }
+.main__name {
+  color: #000000;
+}
 .main__button_see-more {
   padding: 1rem;
 }
-.main__button {
-  display: block;
-  margin: 0 auto;
-  background: none;
-  border: 2px solid #F2F4F3;
-  border-radius: 0.5rem;
-  color: #F2F4F3;
-  padding: 0.5rem;
-  font-size: 11pt;
-  cursor: pointer;
-}
-.main__button:hover {
-  background-color: #F2F4F3;
-  color: #000000;
-  transition: all 1s linear;
-}
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #093364;
   color: #F2F4F3;
-  height: 2rem;
-  text-align: center;
+  height: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
